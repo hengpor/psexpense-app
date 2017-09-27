@@ -1,6 +1,5 @@
 import React from 'react';
 import TextFieldGroup from '../common/TextFieldGroup';
-import PropTypes from 'prop-types';
 
 //import validateInput from '../../server/shared/validations/login'
 //import { login } from '../../actions/authActions';
@@ -24,14 +23,6 @@ class LoginForm extends React.Component {
       </form>
     );
   }
-}
-
-LoginForm.propTypes = {
-  login: PropTypes.func.isRequired
-}
-
-LoginForm.contextTypes = {
-  router: PropTypes.object.isRequired
 }
 
 export default LoginForm;

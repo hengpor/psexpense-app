@@ -14,7 +14,6 @@ const TextFieldGroup = ({ field, value, label, type }) => {
 
 TextFieldGroup.propTypes = {
   field: PropTypes.string.isRequired,
-  value: PropTypes.string.isRequired,
   label: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
 }
